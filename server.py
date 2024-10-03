@@ -27,3 +27,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
                     print(f"Cliente {addr} desconectado")
                     break  # Terminar el bucle para este cliente, pero mantener el servidor activo
                 print(f"Valores recibidos de {addr}: {data.decode()}")
+                

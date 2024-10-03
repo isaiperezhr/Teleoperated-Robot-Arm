@@ -107,3 +107,4 @@ root.mainloop()
 # Cerrar el socket si está conectado al cerrar la ventana
 if client_socket:
     client_socket.close()
+    
